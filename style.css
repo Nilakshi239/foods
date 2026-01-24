@@ -138,9 +138,9 @@ header .navbar {
     font-size:var(--font-size-m);
 }
 
-.hero-section .hero-details .button{
+.hero-section .hero-details .buttons {
     display:flex;
-    gap:23px;
+    gap:16px;
 }
 
 .hero-section .hero-details .button {
@@ -153,23 +153,7 @@ header .navbar {
     transition:0.3s ease;  
 }
 
-.hero-section .hero-details .button:hover,
-.hero-section .hero-details .contact-us { 
-    color:var(--white-color);
-    border-color:var(--white-color);
-    background: transparent;
-}
-
-.hero-section .hero-details .contact-us:hover{
-   color:var(--primary-color);
-    border-color:var(--secondary-color);
-    background: var(--secondary-color); 
-}
-
 .hero-section .hero-image-wrapper {
-    max-width:500px;
-    margin-right:30px;
+    max-width: 500px;
+    margin-right: 30px;
 }
-
-
-
