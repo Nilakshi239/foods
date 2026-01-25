@@ -254,6 +254,7 @@ header .navbar {
 .menu-section {
     color:var(--white-color);
     background:var(--dark-color);
+    padding:50px 0 100px;
 }
 .menu-section .menu-list {
     display:flex;
@@ -401,4 +402,26 @@ header .navbar {
         max-width:250px;
         aspect-ratio: 1;
     }
-}   
+
+    .menu-section .menu-list{
+        gap:30px;
+    }
+    .menu-section .menu-list .menu-item{
+         width:calc(100% /2 - 30px);
+     
+    }
+
+    .menu-section .menu-list .menu-item .menu-image{
+        max-width:200px;
+    }
+} 
+
+@media screen and (max-width:640px){
+    .menu-section .menu-list{
+        gap:60px;
+    }
+    .menu-section .menu-list .menu-item{
+         width:100%;
+     
+    }
+}
