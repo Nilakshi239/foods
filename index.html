@@ -128,33 +128,33 @@
                 <section class="testimonials-section">
                     <h2 class="section-title">Testimonials</h2>
                     <div class="section-content">
-                        <div class="slider-container">
+                        <div class="slider-container swiper">
                             <div class="slider-wrapper">
-                                <ul class="testimonials-list">
-                                    <li class="testimonial">
+                                <ul class="testimonials-list swiper-wrapper">
+                                    <li class="testimonial swiper-slide">
                                         <img src="src/person 1.png" alt="User" class="user-image">
                                         <h3 class="name">Daniel R.</h3>
                                         <i class="feedback">“Loved the flavors and presentation. Everything tasted homemade and full of quality.”</i>
                                         
-                                    <li class="testimonial">
+                                    <li class="testimonial swiper-slide">
                                         <img src="src/Person 2.jpg" alt="User" class="user-image">
                                         <h3 class="name">Sarah K.</h3>
                                         <i class="feedback">“Absolutely delicious! The food was fresh, well-seasoned, and arrived perfectly. I’ll definitely order again.”</i>
 
                                         
-                                    <li class="testimonial">
+                                    <li class="testimonial swiper-slide">
                                         <img src="src/person 3.jpg" alt="User" class="user-image">
                                         <h3 class="name">Isuru P.</h3>
                                         <i class="feedback">“I tried the burgers and drinks. Both were tasty and very refreshing. Great value for money.”</i>
 
                                     
 
-                                    <li class="testimonial">
+                                    <li class="testimonial swiper-slide">
                                         <img src="src/person 4.jpg" alt="User" class="user-image">
                                         <h3 class="name">Kavindi S.</h3>
                                         <i class="feedback">“The desserts were amazing—soft, sweet, and perfectly balanced. Highly recommended!”</i>
 
-                                    <li class="testimonial">
+                                    <li class="testimonial swiper-slide">
                                         <img src="src/person 5.jpg" alt="User" class="user-image">
                                         <h3 class="name">Nethmi J.</h3>
                                         <i class="feedback">“Fresh ingredients, great taste, and fast service. One of the best food websites I’ve tried.”</i>
@@ -164,12 +164,22 @@
 
                                     </li>
                                 </ul>
+
+                                 <div class="swiper-pagination"></div>
+                                 <div class="swiper-slide-button swiper-button-prev"></div>
+                                 <div class="swiper-slide-button swiper-button-next"></div>
                             </div>
                         </div>
                     </div>
 
                 </section>
     </main>
+
+    <!--linking swiper js for testimonial slider-->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <!--linking custom script file -->
 
     <script src="script.js"></script>
 </body>
