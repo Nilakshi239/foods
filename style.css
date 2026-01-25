@@ -188,6 +188,16 @@ header .navbar {
         --font-size-xxl:1.8rem;
     }
 
+    body.show-mobile-menu header::before{
+        content:"";
+        position:fixed;
+        left:0;
+        top:0;
+        width:100%;
+        backdrop-filter:blur(5px);
+        background:rgba(0, 0, 0, 0.2);
+    }
+
     .navbar :where(#menu-close-button, #menu-open-button) {
         display:block;
         font-size:var(--font-size-l);
@@ -233,20 +243,25 @@ header .navbar {
 
     }
 
-    .hero-section .section-content{
-        flex-direction:column;
+    .hero-section .section-content {
+        gap:50px;
         text-align:center;
-        gap:30px;
-    }
+        padding:30px 20px 20px;
+        flex-direction:column-reverse;
+        justify-content:center;
 
-    .hero-section .hero-details .subtitle,
-    .hero-section .hero-details .description {
+    } 
+    
+    .hero-section .hero-details :is(.subtitle, .description){
         max-width:100%;
     }
 
-    .hero-section .hero-image-wrapper {
-        max-width:300px;
-        margin:0 auto; 
-}   
+    .hero-section .hero-details .buttons{
+        justify-content: center;
+    }
     
-}
+    .hero-section .hero-image-wrapper{
+        max-width:270px;
+        margin-right:0;
+    }
+}   
