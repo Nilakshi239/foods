@@ -112,7 +112,7 @@ This project is open source and available under the MIT License.
 
 ## 👨‍💻 Author
 
-Created by CodingSrilanka - Building elegant web experiences
+Created by Nilakshi Sandeepani Bandara- Building elegant web experiences
 
 ## 📧 Contact
 
